@@ -6,12 +6,31 @@ public class Main {
   public static void main(String[] args) {
     System.out.println("Hello world!1234");
 
-    Employee emp = new Employee();
-    emp.setName("John");
-    emp.setAge(30);
-    System.out.println(emp.getName());
-    System.out.println(emp.getAge());
-    Employee emp1 = new Employee();
+
+    //Polimorphism
+    Parent obj = new Parent();
+
+    obj.func();
+    obj.func("XYZ");
+    
+
+    
+
+    //Inheritance
+    // Dog dog = new Dog();
+    // dog.sleep();
+    // dog.eat();
+    // dog.soud();
+
+
+    
+  //Encapsulation
+    // Employee emp = new Employee();
+    // emp.setName("John");
+    // emp.setAge(30);
+    // System.out.println(emp.getName());
+    // System.out.println(emp.getAge());
+    // Employee emp1 = new Employee();
 
       
     //abstraction
